@@ -2,11 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
 .App-header {
   background-color: #222;
   height: 150px;
@@ -18,7 +13,31 @@
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.Contact-submit {
+  text-align: center;
+}
+
+.User-message p {
+  text-align: center;
+}
+
+.Contact-submit form {
+  display: inline-block;
+}
+
+.Contact-submit p {
+  display: table-row;
+}
+
+form {
+  display: table;
+}
+
+label {
+  display: table-cell;
+  text-align: right;
+}
+
+input {
+  display: table-cell;
 }
